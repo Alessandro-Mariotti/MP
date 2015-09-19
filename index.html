@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="mp">
+<head>
+  <title>MediaPlayer</title>
+  <link rel="stylesheet" href="assets/mdl/material.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Title</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Title</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <video src=""></video>
+    </main>
+  </div>
+  
+  
+  
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="assets/mdl/material.min.js"></script>
+  
+  <script src="main.js"></script>
+  
+  <script src="js/services/Store.js"></script>
+  <script src="js/services/FileSystem.js"></script>
+  <script src="js/services/MediaPlayer.js"></script>
+  
+</body>
+</html>
